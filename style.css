@@ -315,6 +315,7 @@ body {
 }
 .landing-header .header-content div:last-of-type p {
   font-size: 12px;
+  padding-left: 40px;
 }
 .landing-header #dados,
 .landing-header #ficha,
@@ -799,6 +800,9 @@ body {
     align-items: center;
     order: 2;
     margin-top: 1rem;
+  }
+  .landing-header .header-content div:nth-of-type(2) p {
+    padding-left: 20px;
   }
   .landing-header .btn-ingresa {
     height: auto !important;
